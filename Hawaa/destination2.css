@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_color {
+  background-color: rgb(0, 64, 84, 1);
+}
+
+.txt_color_white {
+  color: white;
+  font-weight: 600;
+}
+
+.txt_color_off_white {
+  color: rgba(255, 255, 255, 0.574);
+}
+
+.btn_color {
+  background-color: rgba(0, 183, 241, 1);
+}
+
+.full_radious {
+  border-radius: 100px;
+}
+
+.icon_size {
+  font-size: 20px;
+  color: white;
+}
+
+.hero_main_bg {
+  background-image: url(src/destination_bg.jpg);
+  background-repeat: no-repeat;
+  padding: 40px 0px;
+  background-position: center;
+  color: white;
+}
+
+.hero_main_bg div {
+  padding: 150px 0px;
+}
+
+.image_round {
+  border-radius: 10%;
+}
+
+
+.square_box {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.popular_destination_animation{
+  max-width: 300px;
+  height: fit-content;
+  padding: 0;
+  transition: 0.5s;
+}
+
+.popular_destination_animation div:nth-child(1){
+  transition: 0.5s;
+}
+
+.popular_destination_animation img{
+  transition: 0.5s;
+  height: 450px;
+  width: 100%;
+}
+
+.popular_destination_animation h3{
+  transition: 0.5s;
+}
+
+.popular_destination_animation:hover {
+  div:nth-child(1) {
+    box-shadow: 0px 0px 15px rgba(0, 185, 241, 0.418);
+    transform: translateY(-10px);
+  }
+
+  h3 {
+    color: rgba(0, 185, 241);
+  }
+}
+
+.popular_destination_animation:hover {
+  .arrow_rotate_parent {
+    box-shadow: 0px 0px 5px rgba(0, 185, 241, 0.619);
+    border: 1px solid rgb(0, 185, 241);
+  }
+}
+
+.img_small_navigation_buttons div{
+  padding: 20px 25px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.img_small_navigation_buttons div:hover{
+  background-color: rgb(0, 185, 241);
+}
+
+@media (min-width: 250px) and (max-width: 764px) {
+  .img_small_navigation_buttons div{
+    padding: 10px 15px;
+  }
+}
+
+
+/* navbar animation */
+
+.nav_menu{
+  transition: 0.3s;
+}
+
+.nav_menu:hover{
+  ul{
+    display: block;
+  }
+}
+
+
+
+
+/* subscribe form section  */
+
+.subscribe_form_main{
+  padding: 0;
+  background-color: rgba(230, 248, 254, 1);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.subscribe_form_main img{
+  border-radius: 32px 0px 0px 32px;
+}
+
+.subscribe_form_join_button{
+  width: fit-content;
+}
+
+@media (max-width: 991px) {
+  .subscribe_form_main img{
+    border-radius: 32px 32px 0px 0px;
+  }
+}
+
+
+
+
+
+/* footer section  */
+
+.payment_method_img {
+  gap: 8px;
+}
+
+.payment_method_img img {
+  width: 60px;
+}

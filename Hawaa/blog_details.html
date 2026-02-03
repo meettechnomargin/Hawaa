@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="blog_details.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main_color">
+        <nav class="navbar container navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="src/hawaa_logo.png" class="img-fluid"
+                        alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav column-gap-3">
+                        <li class="nav-item dropdown nav_menu">
+                            <button class="btn btn-trasparent txt_color_white dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Home
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html">Home 1</a></li>
+                                <li><a class="dropdown-item" href="#">Home 2</a></li>
+                                <li><a class="dropdown-item" href="#">Home 3</a></li>
+                                <li><a class="dropdown-item" href="#">Home 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown nav_menu">
+                            <button class="btn btn-trasparent txt_color_white dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Destination
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="destination.html">Destinations</a></li>
+                                <li><a class="dropdown-item" href="destination_list.html">Destinations List</a></li>
+                                <li><a class="dropdown-item" href="destination2.html">Destinations 2</a></li>
+                                <li><a class="dropdown-item" href="destination_details.html">Destinations Details</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown nav_menu">
+                            <button class="btn btn-trasparent txt_color_white dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Blog
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="blog_details.html">Blog Details</a></li>
+                                <li><a class="dropdown-item" href="blog_list.html">Blog List</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown nav_menu">
+                            <button class="btn txt_color_white dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                            </button>
+                            <ul class="dropdown-menu" style="width: max-content;">
+                                <div class="container">
+                                    <div class="row py-3 px-3">
+                                        <div class="col-sm-3 col-md-3 col-lg-6 mb-5 fs-5">
+                                            <li>
+                                                <h6 class="fs-5 ms-3">Destination Pages</h6>
+                                            </li>
+                                            <li><a class="dropdown-item" href="destination.html">Destinations</a></li>
+                                            <li><a class="dropdown-item" href="destination2.html">Destinations 2</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="destination_list.html">Destinations
+                                                    List</a></li>
+                                            <li><a class="dropdown-item" href="destination_details.html">Destinations
+                                                    Details</a></li>
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-lg-6 fs-5">
+                                            <li>
+                                                <h6 class="fs-5 ms-3">Blog Pages</h6>
+                                            </li>
+                                            <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                            <li><a class="dropdown-item" href="blog_list.html">Blog List</a></li>
+                                            <li><a class="dropdown-item" href="blog_details.html">Blog Details</a></li>
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-lg-6 fs-5">
+                                            <li>
+                                                <h6 class="fs-5 ms-3">Other Pages</h6>
+                                            </li>
+                                            <li><a class="dropdown-item" href="about_us.html">About Us</a></li>
+                                            <li><a class="dropdown-item" href="contact_us.html">Contact Us</a></li>
+                                            <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+                                            <li><a class="dropdown-item" href="404_page.html">404 page</a></li>
+                                            <li><a class="dropdown-item" href="terms_of_service.html">Terms Of
+                                                    Service</a></li>
+                                            <li><a class="dropdown-item" href="privacy_policy.html">Privacy Policy</a>
+                                            </li>
+                                        </div>
+                                        <div class="col-sm-3 col-md-3 col-lg-6 fs-5">
+                                            <li>
+                                                <h6 class="fs-5 ms-3">Booking</h6>
+                                            </li>
+                                            <li><a class="dropdown-item" href="booking_details.html">Booking Details</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="wishlist.html">Wishlist</a></li>
+                                            <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                            <li><a class="dropdown-item" href="sign_up.html">Sign Up </a></li>
+                                            <li><a class="dropdown-item" href="reset_password.html">Reset Password</a>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button class="btn txt_color_white">
+                                Contact
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="dropdown column-gap-3">
+                        <button class="btn dropdown-toggle txt_color_white" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="fa-solid icon_size fa-globe "></i>
+                            Region
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item gap-5 d-flex align-items-center justify-content-between"
+                                    href="#">
+                                    <p>English</p>
+                                    <p>CAD($)</p>
+                                </a></li>
+                            <li><a class="dropdown-item gap-5 d-flex align-items-center justify-content-between"
+                                    href="#">
+                                    <p>French</p>
+                                    <p>Euro(EU)</p>
+                                </a></li>
+                            <li><a class="dropdown-item gap-5 d-flex align-items-center justify-content-between"
+                                    href="#">
+                                    <p>Japanese</p>
+                                    <p>Japanese Yen(¥)</p>
+                                </a></li>
+                        </ul>
+                        <button type="button" class="btn btn_color full_radious txt_color_white px-3">Login</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- header section  -->
+
+    <div class="container-fluid hero_main_bg">
+        <div class="d-flex justify-content-center align-items-center">
+            <h1 class="display-2 fw-bolder">Blog Details</h1>
+        </div>
+    </div>
+
+
+
+    <!-- blogs list section  -->
+
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="mt-5 col-xxl-7 col-xl-7 col-lg-7 col-md-12 col-sm-12 py-5 px-5">
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                    class="ms-4 mb-4 responsive_hide" style="width: fit-content;">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#destination_list_drover" aria-controls="destination_list_drover"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon d-flex align-items-start"><i
+                                class="fa-solid fa-filter fs-2"></i>
+                            <h5>Filter</h5>
+                        </span>
+                    </button>
+                </div>
+
+                <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                    src="src/blgos_details_img.jpg" class="img-fluid rounded-5" alt="Image">
+
+                <h3 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                    class="fs-1 fw-bolder mt-4">Services Offered by a Tour and Travel Agency</h3>
+
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                    class="d-flex justify-content-between align-items-center w-50 mt-4 fs-5 lead">
+                    <p> Tomas Jomn</p>
+                    <p>543 Views</p>
+                    <p>5 Comments</p>
+                </div>
+
+                <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                    class="fs-5 mb-4">A professional tour and travel agency offers a wide range of services designed to
+                    make
+                    travel
+                    planning seamless, enjoyable, and hassle-free for individuals, families, groups, and corporate
+                    clients. These services are tailored to meet diverse needs and preferences, ensuring memorable and
+                    stress-free travel experiences from start to finish.</p>
+
+                <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                    class="fw-bold mb-4"><i>
+                        The season also brings a chance to unwind, whether by reading a book in a
+                        hammock, watching fireworks light up the night sky, or simply savoring an ice-cold drink by the
+                        pool. It's a time to recharge and reconnect with loved ones, making every sunny day a
+                        celebration of
+                        life's simple pleasures and the beauty of the great outdoors.
+                    </i></p>
+
+                <div class="mb-4">
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fw-bold my-0">1. Customized Tour Packages</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fs-5 ">Tour agencies specialize in creating personalized travel itineraries based on
+                        clients' interests,
+                        budgets, destinations, and travel duration. Whether it's a romantic honeymoon, a family
+                        vacation, a solo adventure, or a cultural expedition, the agency curates every detail—from
+                        accommodation to daily activities—to match the traveler's expectations.</p>
+                </div>
+
+                <div class="mb-4">
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fw-bold my-0">2. Guided Tours and Excursions</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fs-5 ">
+                        Professional tour guides and local experts are often arranged for sightseeing, cultural
+                        experiences, historical tours, and adventure activities. These guided excursions offer
+                        insightful knowledge and safe exploration of landmarks, nature, and heritage sites.</p>
+                </div>
+
+                <div class="mb-4">
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fw-bold my-0">3. Adventure and Specialized Travel</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fs-5 ">For thrill-seekers or niche travelers, agencies offer specialized packages such as
+                        trekking, wildlife safaris, scuba diving, skiing, desert camping, and more. They ensure all
+                        safety protocols, permits, and equipment are managed efficiently.</p>
+                </div>
+
+                <div class="mb-4">
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fw-bold my-0">4. Corporate and Group Travel</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fs-5 ">Tailored services for corporate travel include organizing business trips,
+                        conferences, incentive travel, team-building retreats, and meetings. Group travel services cover
+                        school trips, pilgrimages, and large family tours with logistical support and group discounts.
+                    </p>
+                </div>
+
+                <div class="mb-4">
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fw-bold my-0">5. 24/7 Travel Support and Emergency Services</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fs-5 ">Reputable agencies offer round-the-clock customer support to handle flight delays,
+                        cancellations, lost luggage, medical emergencies, and any unexpected travel issues, ensuring
+                        travelers feel secure throughout their journey.</p>
+                </div>
+
+                <div class="mb-4">
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fw-bold my-0">6. Local Experiences and Cultural Immersion</p>
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fs-5 ">Modern agencies often focus on enriching the travel experience by including
+                        opportunities for local interaction, culinary tours, workshops, and festivals, allowing tourists
+                        to deeply connect with the places they visit.</p>
+                </div>
+
+
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                    class="d-flex justify-content-center align-items-center flex-column text-center py-3 px-3 rounded-5"
+                    style="background-color: rgba(67, 211, 255, 0.144);border-left: 4px solid rgb(0, 185, 241);">
+                    <img src="src/clients_image.jpg" class="img-fluid mt-3 full_radious" alt="Image">
+
+                    <h3 class="fw-bolder fs-3 my-0 mt-5">"Every journey is a chance to explore, connect, and create
+                        lasting memories—because travel is about the adventure, not just the destination."</h3>
+
+                    <div>
+                        <p class="fw-bolder fs-4 my-0 mt-5">Author</p>
+                        <p class="fw-bolder fs-5 my-0 mt-2 mb-4" style="color: rgb(0, 185, 241);">Alison Homes</p>
+                    </div>
+                </div>
+
+                <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                    class="fs-5 lead my-5 fw-semibold">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
+                    error sit voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                <hr data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+
+                <div class="mt-5">
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="d-flex justify-content-between align-items-center pt-4">
+                        <h2 class="fs-3 fw-bolder text-start">All Comment</h2>
+                        <p class="fs-5 fw-semibold text-end"><strong>Sort By:</strong> New Comment</p>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="rounded-4 py-4 px-4 blog_details_comments_list mt-5">
+                        <div class="responsive_display_unset">
+                            <img src="src/clients_image.jpg" class="img-fluid" alt="Image">
+                            <div class="ms-3">
+                                <h3 class="my-0 fw-bold">Guy Hawkins</h3>
+                                <p class="my-0 mt-2">Software Engineer</p>
+                            </div>
+                        </div>
+                        <p class="fs-5 mt-3">There are many variations of passage available but the majority have
+                            suffered
+                            alteration in
+                            some form by injected humour randomised words undoubtable look even slightly believable.</p>
+
+                        <hr>
+
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <p class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 my-0 mb-2">July 12, 2025, 10:30 PM
+                            </p>
+                            <button style="width: fit-content;"
+                                class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 btn btn_color py-2 px-5 fs-5 fw-semibold txt_color_white full_radious mb-2">Reply</button>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="rounded-4 py-4 px-4 blog_details_comments_list mt-5">
+                        <div class="responsive_display_unset">
+                            <img src="src/clients_image.jpg" class="img-fluid" alt="Image">
+                            <div class="ms-3">
+                                <h3 class="my-0 fw-bold">Guy Hawkins</h3>
+                                <p class="my-0 mt-2">Software Engineer</p>
+                            </div>
+                        </div>
+                        <p class="fs-5 mt-3">There are many variations of passage available but the majority have
+                            suffered
+                            alteration in
+                            some form by injected humour randomised words undoubtable look even slightly believable.</p>
+
+                        <hr>
+
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <p class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 my-0 mb-2">July 12, 2025, 10:30 PM
+                            </p>
+                            <button style="width: fit-content;"
+                                class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 btn btn_color py-2 px-5 fs-5 fw-semibold txt_color_white full_radious mb-2">Reply</button>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="rounded-4 py-4 px-4 blog_details_comments_list mt-5" style="width: fit-content;">
+                        <div class="responsive_display_unset">
+                            <img src="src/clients_image.jpg" class="img-fluid" alt="Image">
+                            <div class="ms-3">
+                                <h3 class="my-0 fw-bold">Guy Hawkins</h3>
+                                <p class="my-0 mt-2">Software Engineer</p>
+                            </div>
+                        </div>
+                        <p class="fs-5 mt-3">There are many variations of passage available but the majority have
+                            suffered
+                            alteration in
+                            some form by injected humour randomised words undoubtable look even slightly believable.</p>
+
+                        <hr>
+
+                        <div class="row d-flex justify-content-between align-items-center">
+                            <p class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 my-0 mb-2">July 12, 2025, 10:30 PM
+                            </p>
+                            <button style="width: fit-content;"
+                                class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 btn btn_color py-2 px-5 fs-5 fw-semibold txt_color_white full_radious mb-2">Reply</button>
+                        </div>
+                    </div>
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="d-flex justify-content-start align-items-center">
+                        <div class="d-flex justify-content-evenly align-items-center py-2 px-2 gap-2 rounded img_small_navigation_buttons mt-5"
+                            style="background-color: rgba(0, 185, 241, 0.219); width: max-content;">
+                            <div class="rounded">1</div>
+                            <div class="rounded">2</div>
+                            <div class="rounded">3</div>
+                            <div class="rounded">4</div>
+                            <div class="rounded">></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000" class="mt-5">
+                    <h3 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fw-bolder fs-3">Leave a Reply</h3>
+                    <form>
+                        <div class="border border-1 py-4 px-4 rounded-4 mt-4">
+                            <div class="row">
+                                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="2000" class="col-lg-6 col-md-6 col-sm-12 mb-4">
+                                    <label for="name"
+                                        class="fw-bold fs-5 ms-1 mb-2 d-flex justify-content-start align-items-start flex-column">Name</label>
+                                    <input type="text" name="name" class="w-100 py-2 ps-3 rounded-3 border form-control"
+                                        placeholder="Enter your name">
+                                </div>
+                                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="2000" class="col-lg-6 col-md-6 col-sm-12">
+                                    <label for="email"
+                                        class="fw-bold fs-5 ms-1 mb-2 d-flex justify-content-start align-items-start flex-column">Email</label>
+                                    <input type="text" name="email"
+                                        class="w-100 py-2 ps-3 rounded-3 border form-control"
+                                        placeholder="Enter your email">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div data-aos="fade-up" data-aos-anchor-placement="center-bottom"
+                                    data-aos-duration="2000" class="col">
+                                    <label
+                                        class="fw-bold fs-5 ms-1 mb-2 d-flex justify-content-start align-items-start flex-column"
+                                        for="comment">Comment</label>
+                                    <textarea class="form-control" style="height: 100px;" name="comment"
+                                        placeholder="Type comment"></textarea>
+                                </div>
+                            </div>
+                            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="row mt-4 ms-0">
+                                <button class="btn btn_color py-2 px-4 fs-5 fw-semibold txt_color_white full_radious"
+                                    style="width: max-content;">Submit Query</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="mt-5 col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 py-5">
+
+                <div id="destination_list_drover">
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="py-4 px-4 border border-1 rounded-4 w-100" style="background-color: rgb(0, 185, 241);">
+                        <h1 class="fw-bolder mb-4 txt_color_white">Find Your Blog</h1>
+                        <div>
+                            <form class="d-flex mt-4" role="search">
+                                <button class="btn rounded-start-1 rounded-end-0 fs-4 px-3"
+                                    style="background-color: rgb(223, 247, 255); color: rgb(0, 185, 241);"
+                                    type="submit">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                                <input class="form-control border-0 rounded-start-0 rounded-end-1 py-3" type="search"
+                                    placeholder="Search Here" aria-label="Search" />
+                            </form>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="mt-5 py-4 px-4 rounded-4 bg_light_grey">
+                        <h3 class="fw-bolder">Recent Posts</h3>
+                        <div class="mt-4">
+                            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="d-flex align-items-center justify-content-center mt-4">
+                                <img src="src/blog_details_post_img_1.jpg" class="img-fluid rounded-3 w-50" alt="Image">
+                                <div class="ms-3">
+                                    <p class="my-0">18 Sep 2025</p>
+                                    <p class="fs-4 fw-bold">Journey to Inspire Your Next Adventure</p>
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="d-flex align-items-center justify-content-center mt-4">
+                                <img src="src/blog_details_post_img_2.jpg" class="img-fluid rounded-3 w-50" alt="Image">
+                                <div class="ms-3">
+                                    <p class="my-0">18 Sep 2025</p>
+                                    <p class="fs-4 fw-bold">Discover Adventures for Next Escape</p>
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="d-flex align-items-center justify-content-center mt-4">
+                                <img src="src/blog_details_post_img_3.jpg" class="img-fluid rounded-3 w-50" alt="Image">
+                                <div class="ms-3">
+                                    <p class="my-0">18 Sep 2025</p>
+                                    <p class="fs-4 fw-bold">Adventures Await to Spark Your Trip</p>
+                                </div>
+                            </div>
+
+                            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="d-flex align-items-center justify-content-center mt-4">
+                                <img src="src/blog_details_post_img_4.jpg" class="img-fluid rounded-3 w-50" alt="Image">
+                                <div class="ms-3">
+                                    <p class="my-0">18 Sep 2025</p>
+                                    <p class="fs-4 fw-bold">Explore New Places for Next Journey</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="mt-5 py-4 px-4 rounded-4 blog_details_category_animation bg_light_grey">
+                        <h3 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="fw-bolder">All Category</h3>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="d-flex align-items-center justify-content-between mt-4 fs-5">
+                            <p class="my-0">True Crime Podcast</p>
+                            <p class="my-0">(10)</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="d-flex align-items-center justify-content-between mt-2 fs-5">
+                            <p class="my-0">True Crime Podcast</p>
+                            <p class="my-0">(10)</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="d-flex align-items-center justify-content-between mt-2 fs-5">
+                            <p class="my-0">True Crime Podcast</p>
+                            <p class="my-0">(10)</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="d-flex align-items-center justify-content-between mt-2 fs-5">
+                            <p class="my-0">True Crime Podcast</p>
+                            <p class="my-0">(10)</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="d-flex align-items-center justify-content-between mt-2 fs-5">
+                            <p class="my-0">True Crime Podcast</p>
+                            <p class="my-0">(10)</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="d-flex align-items-center justify-content-between mt-2 fs-5">
+                            <p class="my-0">True Crime Podcast</p>
+                            <p class="my-0">(10)</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="d-flex align-items-center justify-content-between mt-2 fs-5">
+                            <p class="my-0">True Crime Podcast</p>
+                            <p class="my-0">(10)</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="d-flex align-items-center justify-content-between mt-2 fs-5">
+                            <p class="my-0">True Crime Podcast</p>
+                            <p class="my-0">(10)</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="d-flex align-items-center justify-content-between mt-2 fs-5">
+                            <p class="my-0">True Crime Podcast</p>
+                            <p class="my-0">(10)</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="d-flex align-items-center justify-content-between mt-2 fs-5">
+                            <p class="my-0">True Crime Podcast</p>
+                            <p class="my-0">(10)</p>
+                        </div>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="d-flex align-items-center justify-content-between mt-2 fs-5">
+                            <p class="my-0">True Crime Podcast</p>
+                            <p class="my-0">(10)</p>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="mt-5 py-4 px-4 rounded-4 blog_details_category_animation bg_light_grey">
+                        <h3 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="fw-bolder">Archive</h3>
+                        <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="dropdown w-100 mt-4">
+                            <button class="btn w-100 bg-white dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Select Month
+                            </button>
+                            <ul class="dropdown-menu w-100">
+                                <li><a class="dropdown-item" href="#">January</a></li>
+                                <li><a class="dropdown-item" href="#">February</a></li>
+                                <li><a class="dropdown-item" href="#">March</a></li>
+                                <li><a class="dropdown-item" href="#">April</a></li>
+                                <li><a class="dropdown-item" href="#">May</a></li>
+                                <li><a class="dropdown-item" href="#">June</a></li>
+                                <li><a class="dropdown-item" href="#">July</a></li>
+                                <li><a class="dropdown-item" href="#">August</a></li>
+                                <li><a class="dropdown-item" href="#">September</a></li>
+                                <li><a class="dropdown-item" href="#">October</a></li>
+                                <li><a class="dropdown-item" href="#">November</a></li>
+                                <li><a class="dropdown-item" href="#">December</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="mt-5 py-4 px-4 rounded-4 blog_details_category_animation bg_light_grey">
+                        <h3 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="fw-bolder">Popular Tags</h3>
+                        <div class="row gap-3">
+                            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="my-0 py-2 bg-white lead rounded-2" style="width: max-content;">Podcast</p>
+                            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="my-0 py-2 bg-white lead rounded-2" style="width: max-content;">Event</p>
+                            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="my-0 py-2 bg-white lead rounded-2" style="width: max-content;">Classical</p>
+                            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="my-0 py-2 bg-white lead rounded-2" style="width: max-content;">Music</p>
+                            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="my-0 py-2 bg-white lead rounded-2" style="width: max-content;">Radio</p>
+                            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="my-0 py-2 bg-white lead rounded-2" style="width: max-content;">New Songs</p>
+                            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="my-0 py-2 bg-white lead rounded-2" style="width: max-content;">Sound System</p>
+                            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="my-0 py-2 bg-white lead rounded-2" style="width: max-content;">Live Show</p>
+                            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="my-0 py-2 bg-white lead rounded-2" style="width: max-content;">Sound</p>
+                            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="my-0 py-2 bg-white lead rounded-2" style="width: max-content;">Hosts</p>
+                            <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="my-0 py-2 bg-white lead rounded-2" style="width: max-content;">Modern</p>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="mt-5">
+                        <img src="src/destination_list_banner_image.png" class="img-fluid" alt="Image">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- subscribe form section  -->
+
+    <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+        class="container rounded-5 subscribe_form_main">
+        <div class="row">
+            <div class="w-100 col-lg col-sm-6">
+                <img src="src/popular_destination_1.jpg" alt="Image" class="img-fluid rounded-start-5">
+            </div>
+            <div class="px-5 col-lg col-sm-6 d-flex justify-content-center flex-column">
+                <div class="full_radious btn_color px-3 py-2 fs-5 fw-bold txt_color_white subscribe_form_join_button">
+                    Join
+                    Our
+                    Newsletter</div>
+                <h2 class="pb-4 fw-bold">Unlock exclusive deals — prices drop as soon as you subscribe!</h2>
+                <div class="subscribe_form_inp_div border border-dark border-1 mb-2 rounded-5 d-flex"
+                    style="display: inline-block;">
+                    <input type="text"
+                        class="bg-transparent rounded-5 border-0 form-control shadow-none fs-5 fw-semibold px-4 py-3 me-5"
+                        placeholder="Your email">
+                    <button
+                        class="btn_color full_radious rounded-5 px-4 py-3 fs-5 fw-bold txt_color_white border-0">Subscribe</button>
+                </div>
+                <p class="fs-6">Your email is safe with us — no spam, just useful travel insights.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer section  -->
+
+    <div class="container-fluid py-5 bg-black">
+        <div class="container py-5">
+            <div class="text-start txt_color_off_white">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 mb-3 pe-5">
+                        <div class="mb-4">
+                            <h4 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="txt_color_white mb-3">Language</h4>
+                            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="border px-3 py-3">English (UK)</div>
+                        </div>
+                        <div>
+                            <h4 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="txt_color_white mb-3">Currency</h4>
+                            <div data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="border px-3 py-3">Canadian Dollar ($)</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-3">
+                        <h4 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="txt_color_white">Company</h4>
+                        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">About
+                            Us</p>
+                        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                            Community Blog</p>
+                        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">Jobs
+                            and Career</p>
+                        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">Contact
+                            Us</p>
+                        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">Our
+                            Awards</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-3">
+                        <h4 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="txt_color_white">Company</h4>
+                        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">About
+                            Us</p>
+                        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                            Community Blog</p>
+                        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">Jobs
+                            and Career</p>
+                        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">Contact
+                            Us</p>
+                        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">Our
+                            Awards</p>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mb-3">
+                        <h4 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="txt_color_white">Payment Methods Possible</h4>
+                        <div class="d-flex flex-wrap payment_method_img mb-3">
+                            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="rounded-5" src="src/paypal.jpg" alt="">
+                            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="rounded-5" src="src/stripe.jpg" alt="">
+                            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="rounded-5" src="src/mastercard.jpg" alt="">
+                            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="rounded-5" src="src/skrill.jpg" alt="">
+                            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="rounded-5" src="src/paypal.jpg" alt="">
+                            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="rounded-5" src="src/stripe.jpg" alt="">
+                            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="rounded-5" src="src/mastercard.jpg" alt="">
+                            <img data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                                class="rounded-5" src="src/skrill.jpg" alt="">
+                        </div>
+                        <h4 data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                            class="txt_color_white">Company</h4>
+                        <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">Become
+                            a tour huide for us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light py-3">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col d-flex justify-content-start align-items-center text-start">
+                    <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        style="margin: 0;" class="fs-5">Copyright &copy;2025 SpreeThemes. All Rights Reserved.</p>
+                </div>
+                <div class="col text-end d-flex justify-content-end align-items-center">
+                    <i data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fa-brands fa-facebook fs-3"></i>
+                    <i data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fa-brands fa-twitter fs-3"></i>
+                    <i data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fa-brands fa-instagram fs-3"></i>
+                    <i data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000"
+                        class="fa-brands fa-pinterest fs-3"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const rangeInput = document.querySelectorAll(".range-input input"),
+            priceInput = document.querySelectorAll(".price-input input"),
+            range = document.querySelector(".slider .progress");
+        let priceGap = 500;
+
+        priceInput.forEach((input) => {
+            input.addEventListener("input", (e) => {
+                let minPrice = parseInt(priceInput[0].value),
+                    maxPrice = parseInt(priceInput[1].value);
+
+                if (maxPrice - minPrice >= priceGap && maxPrice <= rangeInput[1].max) {
+                    if (e.target.className === "input-min") {
+                        rangeInput[0].value = minPrice;
+                        range.style.left = (minPrice / rangeInput[0].max) * 100 + "%";
+                    } else {
+                        rangeInput[1].value = maxPrice;
+                        range.style.right = 100 - (maxPrice / rangeInput[1].max) * 100 + "%";
+                    }
+                }
+            });
+        });
+
+        rangeInput.forEach((input) => {
+            input.addEventListener("input", (e) => {
+                let minVal = parseInt(rangeInput[0].value),
+                    maxVal = parseInt(rangeInput[1].value);
+
+                if (maxVal - minVal < priceGap) {
+                    if (e.target.className === "range-min") {
+                        rangeInput[0].value = maxVal - priceGap;
+                    } else {
+                        rangeInput[1].value = minVal + priceGap;
+                    }
+                } else {
+                    priceInput[0].value = minVal;
+                    priceInput[1].value = maxVal;
+                    range.style.left = (minVal / rangeInput[0].max) * 100 + "%";
+                    range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
+                }
+            });
+        });
+
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

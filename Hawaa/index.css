@@ -1,0 +1,516 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_color {
+    background-color: rgb(0, 64, 84, 1);
+}
+
+.txt_color_white {
+    color: white;
+    font-weight: 600;
+}
+
+.txt_color_off_white {
+    color: rgba(255, 255, 255, 0.574);
+}
+
+.btn_color {
+    background-color: rgba(0, 183, 241, 1);
+}
+
+.full_radious {
+    border-radius: 100px;
+}
+
+.icon_size {
+    font-size: 20px;
+    color: white;
+}
+
+.hero_main_bg {
+    background-image: url(src/hero_background.jpg);
+    background-repeat: no-repeat;
+    padding: 40px 0px;
+}
+
+.image_round {
+    border-radius: 10%;
+}
+
+.btn_padding {
+    padding: 2% 7%;
+}
+
+.square_box {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.popular_destination_animation {
+    max-width: 425px;
+    transition: 0.5s;
+}
+
+.popular_destination_animation img {
+    transition: 0.5s;
+}
+
+.arrow_rotate {
+    rotate: -45deg;
+    transition: 0.3s;
+}
+
+.popular_destination_animation:hover {
+    .arrow_rotate {
+        rotate: unset;
+    }
+    .arrow_rotate_parent {
+        box-shadow: 0px 0px 5px rgba(0, 185, 241, 0.619);
+    }
+}
+
+.popular_destination_animation:hover {
+    box-shadow: 0px 0px 25px rgba(0, 185, 241, 0.619);
+    scale: 1.05;
+}
+
+.popular_destination_animation:hover {
+    img {
+        scale: 0.953;
+    }
+}
+
+.popular_destination_animation:hover {
+    .arrow_rotate_parent {
+        box-shadow: 0px 0px 5px rgba(0, 185, 241, 0.619);
+        border: 1px solid rgb(0, 185, 241);
+    }
+}
+
+
+
+
+
+
+/* navbar animation */
+
+.nav_menu{
+  transition: 0.3s;
+}
+
+.nav_menu:hover{
+  ul{
+    display: block;
+  }
+}
+
+
+
+
+
+
+
+
+/* featured tours section */
+
+.featured_tours_main{
+    margin-top: 100px;
+}
+
+
+
+
+/* code pen  */
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --background-color: #f5f7fa;
+  --card-bg: #ffffff;
+  --text-color: #333333;
+  --text-secondary: #7f8c8d;
+  --border-color: #e1e4e8;
+  --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  --hover-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.dark-theme {
+  --primary-color: #4a9de3;
+  --secondary-color: #ecf0f1;
+  --background-color: #1a1a2e;
+  --card-bg: #16213e;
+  --text-color: #e6e6e6;
+  --text-secondary: #b0b0b0;
+  --border-color: #2d3748;
+  --shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  --hover-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: var(--secondary-color);
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+}
+
+.theme-switcher {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.theme-label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: var(--primary-color);
+}
+
+input:checked + .slider:before {
+  transform: translateX(30px);
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 10px;
+}
+
+.tab {
+  padding: 12px 24px;
+  margin: 0 5px 10px;
+  background: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: var(--text-secondary);
+}
+
+.tab:hover {
+  background-color: rgba(52, 152, 219, 0.1);
+  color: var(--primary-color);
+}
+
+.tab.active {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+/* Gallery grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 25px;
+  height: 600px;
+  padding-bottom: 30px;
+  overflow-y: scroll;
+}
+
+.gallery::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery-item {
+  border-radius: 10px;
+  width: 400px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s ease forwards;
+  background-color: var(--card-bg);
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--hover-shadow);
+  transform: scale(1.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+  transform: scale(1.1);
+}
+
+.gallery-item:hover img {
+  transform: scale(1);
+}
+
+.item-info {
+  padding: 15px;
+  background-color: var(--card-bg);
+}
+
+.item-info h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 10px 0px;
+  color: var(--secondary-color);
+}
+
+.item-info p {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin: 15px 0px;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* No results text */
+.no-results {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px;
+  color: var(--text-secondary);
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  color: var(--text-secondary);
+  border-top: 1px solid var(--border-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  }
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .theme-switcher {
+    margin-top: 0;
+    flex-direction: unset;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+  .tab {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* qualities section  */
+
+
+
+.small_square_box{
+    min-width: 60px;
+    min-height: 60px;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+
+
+/* statistics section  */
+
+.statistics_main{
+    background-color: rgba(0, 64, 84, 1);
+}
+
+.statistics_main h1, .statistics_main h5{
+    color: white;
+}
+
+.statistics_detail{
+    box-sizing: content-box;
+    border-right: 1px solid white;
+    padding: 0px 50px 0px 25px;
+}
+
+.hide_verticle_hr{
+    border: none;
+}
+
+
+
+
+/* dream destinations section  */
+
+.dream_destinations_main{
+    background-image: url(src/deram_destination_bg_image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+}
+
+
+/* clients section  */
+
+.client_image{
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.client_image img{
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+}
+
+
+
+
+
+/* subscribe form section  */
+
+.subscribe_form_main{
+  background-color: black;
+  background-image: url(src/subscribe_form_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 70px 0px;
+  color: white;
+  /* opacity: 0.5; */
+  gap: 30px;
+}
+
+.subscribe_form_main h3{
+  width: 65%;
+}
+
+
+
+
+
+/* footer photos section  */
+
+.footer_photos_main{
+  overflow-x: scroll;
+}
+
+.footer_photos_main::-webkit-scrollbar {
+  display: none;
+}
+
+.footer_photos_inner img{
+  width: 300px;
+  height: 200px;
+}
+
+
+
+/* footer section  */
+
+.payment_method_img{
+  gap: 8px;
+}
+
+.payment_method_img img{
+  width: 60px;
+}

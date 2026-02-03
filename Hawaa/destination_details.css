@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_color {
+  background-color: rgb(0, 64, 84, 1);
+}
+
+.txt_color_white {
+  color: white;
+  font-weight: 600;
+}
+
+.txt_color_off_white {
+  color: rgba(255, 255, 255, 0.574);
+}
+
+.btn_color {
+  background-color: rgba(0, 183, 241, 1);
+}
+
+.full_radious {
+  border-radius: 100px;
+}
+
+.icon_size {
+  font-size: 20px;
+  color: white;
+}
+
+.hero_main_bg {
+  background-image: url(src/destination_bg.jpg);
+  background-repeat: no-repeat;
+  padding: 40px 0px;
+  background-position: center;
+  color: white;
+}
+
+.hero_main_bg div {
+  padding: 150px 0px;
+}
+
+.image_round {
+  border-radius: 10%;
+}
+
+
+.square_box {
+  min-width: 100px;
+  min-height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.popular_destination_animation {
+  max-width: 200px;
+  height: fit-content;
+  padding: 0;
+  transition: 0.5s;
+}
+
+.popular_destination_animation div:nth-child(1) {
+  scale: 0.95;
+  transition: 0.5s;
+}
+
+.popular_destination_animation img {
+  transition: 0.5s;
+  height: 270px;
+  width: 100%;
+  scale: 0.95;
+}
+
+.popular_destination_animation:hover {
+  div:nth-child(1) {
+    box-shadow: 0px 0px 25px rgba(0, 185, 241, 0.619);
+    scale: 1.01;
+  }
+
+  img {
+    scale: 1.01;
+  }
+}
+
+.popular_destination_animation:hover {
+  .arrow_rotate_parent {
+    box-shadow: 0px 0px 5px rgba(0, 185, 241, 0.619);
+    border: 1px solid rgb(0, 185, 241);
+  }
+}
+
+
+
+
+
+
+
+/* navbar animation */
+
+.nav_menu {
+  transition: 0.3s;
+}
+
+.nav_menu:hover {
+  ul {
+    display: block;
+  }
+}
+
+
+
+/* destination detail section */
+
+.destination_detail_img_animation {
+  transition: 0.3s;
+  scale: 1.03;
+}
+
+.destination_detail_img_animation:hover {
+  scale: 1;
+}
+
+
+/* available place section  */
+
+.available_place_img {
+  width: 5%;
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+  .available_place_img {
+    width: 7%;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+  .available_place_img {
+    width: 10%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+  .available_place_img {
+    width: 15%;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  .available_place_img {
+    width: 20%;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 400px) {
+  .available_place_img {
+    width: 25%;
+  }
+}
+
+
+
+.available_place_responsive_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .available_place_responsive_btn {
+    display: unset;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+.img_small_navigation_buttons div {
+  padding: 15px 20px;
+  background-color: white;
+  transition: 0.3s;
+}
+
+.img_small_navigation_buttons div:hover {
+  background-color: rgb(0, 185, 241);
+}
+
+@media (min-width: 250px) and (max-width: 764px) {
+  .img_small_navigation_buttons div {
+    padding: 10px 15px;
+  }
+}
+
+
+
+
+/* subscribe form section  */
+
+.subscribe_form_main{
+  padding: 0;
+  background-color: rgba(230, 248, 254, 1);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.subscribe_form_main img, .responsive_image_rounded{
+  border-radius: 32px 0px 0px 32px;
+}
+
+.responsive_image_rounded{
+  border-radius: 15px 0px 0px 15px;
+}
+
+.subscribe_form_join_button{
+  width: fit-content;
+}
+
+@media (max-width: 991px) {
+  .subscribe_form_main img{
+    border-radius: 32px 32px 0px 0px;
+  }
+  
+  .responsive_image_rounded{
+    border-radius: 15px 15px 0px 0px;
+  }
+}
+
+
+
+
+/* footer section  */
+
+.payment_method_img {
+  gap: 8px;
+}
+
+.payment_method_img img {
+  width: 60px;
+}
